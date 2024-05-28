@@ -1,0 +1,200 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ .header{
+    padding: 20px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+ .header ul{
+    display: flex;
+    gap: 60px;
+    font-size: 30px;
+    list-style: none;
+    padding: 14px 50px;
+    
+ }
+.button1{
+    border: none;
+    font-size: 28px;
+    padding: 14px 50px;
+    background-color: #204E51;
+    color: white;
+    border-radius: 8px;
+
+}
+.button2{
+    border: 2px #204E51 solid;
+    font-size: 28px;
+    padding: 14px 50px;
+    color: #204E51; 
+    border-radius: 8px;
+    margin-left: 10px;
+
+
+}
+.hero{
+    height: 650px;
+    background-repeat: no-repeat;
+    background-size:100% 650px;
+    background-image:linear-gradient(rgb(0,0,0,0.7),
+    rgba(0,0,0,0.5)),
+     url(https://farmhacker.com/wp-content/uploads/2020/03/beautiful-sunflowers-in-front-of-a-red-barn-farm-background-wallpaper-pictures-2048x1535.jpg); 
+    text-align: center;
+
+}
+.hero h1{
+    padding-top: 100px;
+    font-size: 100px;
+    font-weight: bold;
+    padding-bottom: 10px;
+
+}
+.hero p{
+    margin-bottom: 40px;
+    font-size: 20px;
+
+}
+#button2{
+    background-color: transparent;
+    color: white;
+    border: 2px white solid;
+}
+.left, .right{
+    width: 500px;
+}
+.parent{
+    margin-top: 130px;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: space-around;
+
+}
+.right img{
+    width: 500px;
+    height: 550px;
+    border-radius: 20px;
+
+}
+.hi{
+    font-size: 100px;
+}
+.right{
+    position: relative;
+}
+.hello{
+        border: 1px red solid;
+        font-size: 60px;
+        padding: 14px 50px;
+        background-color: white;
+        color: black;
+        border-radius: 8px;
+        position: absolute;
+        right: 50px;
+        bottom: 10px;
+}
+.service1{
+    border-radius: 22px;
+    text-align: center;
+    background-color: aliceblue;
+    margin: 10px;
+    width: 280px;
+    height: 200;
+}
+.service-parent{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 100px;
+    margin-top: 30px;
+}
+.service{
+    text-align: center; 
+}
+.product-parent{
+    margin:30px;
+    display: grid;
+    grid-template-columns: repeat(4,280px);
+    column-gap: 40px;
+    justify-content: center;
+}
+.product1{
+    border-radius: 22px;
+    width: 100%;
+    height: 500px;
+    margin: 18px;
+    background-color:lightblue;
+}
+.product{
+    margin: 100px;
+    text-align: center;
+}
+.product h1{
+    font-size: 70px;
+}
+.product1 img{
+    margin-top: 30px;
+    width: 200px;
+    border-radius: 18px;
+}
+.product h1{
+    padding: 20px 1px;
+    font-size: 40px;
+}
+.product1 p{
+    padding: 20px;
+    line-height: 25px;
+}
+.sustain{
+    padding: 30px;
+    height: 470px;
+    background-repeat: no-repeat;
+    background-size: 100% 470px;
+    background-image:linear-gradient(rgb(0,0,0,0.8),
+    rgba(0,0,0,0.9)),
+     url(https://farmhacker.com/wp-content/uploads/2020/03/beautiful-sunflowers-in-front-of-a-red-barn-farm-background-wallpaper-pictures-2048x1535.jpg); 
+    color: white;
+}
+.sustain h1{
+    margin-bottom: 50px;
+    font-size: 80px;
+}
+.benefit-left{
+    margin-top: 100px;
+    width: 490px;
+}
+.benefit-left h1{
+    font-size: 70px;
+
+}
+.benefit-parent{
+    display: flex;
+    justify-content: space-around;
+
+}
+.benefit-right{
+    border-radius: 20px;
+    height: 650px;
+    width: 600px;
+    background-color: #204E51;
+}
+.icon-parent{
+    display: flex;
+    margin-left: 50px;
+    margin: top 30px;
+    align-items: center;
+    gap: 60px;
+
+}
+.icon-parent i{
+    font-size: 60px;
+}
+.icon-parent h1{
+    margin-top: 100px;
+    font-size: 50px;
+}
+.icon-parent{
+    color: white;
+}
